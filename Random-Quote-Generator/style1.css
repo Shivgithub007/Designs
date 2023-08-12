@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Kablammo&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg width='44' height='12' viewBox='0 0 44 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 12v-2L0 0v10l4 2h16zm18 0l4-2V0L22 10v2h16zM20 0v8L4 0h16zm18 0L22 8V0h16z' fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    color:black;
+    font-family: 'Borel', cursive;
+    font-family: 'Kablammo', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+    
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    font-weight:700;
+    text-align:center;
+}
+#container{
+    border:2px solid black;
+    width:70vw;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:2px 2px
+}
+#text-container{
+    display:flex;
+    word-spacing:1px
+}
+#logo{
+    font-size:5vw;
+    margin-right:10px;
+    position:relative;
+    top:-9px;
+}
+#text{
+    font-size:4vw;
+    text-align:justify;
+}
+#buttons-container{
+    display:flex;
+    justify-content:space-between;
+}
+button{
+    width:15vw;
+    height:3.3vw;
+    border-radius:10px;
+    font-size:2vw;
+    background-color:transparent;
+}
+#author{
+    font-size:2.6vw;
+}
+#author-container{
+    margin-bottom:4px;
+    margin-top:4px;
+}
+#newQuote{
+    font-weight:bold;
+}
+button:hover{
+    background-color:black;
+    color:white;
+}
+@media (max-width:600px) {
+    #container{
+        width:80vw;
+        
+    }
+    #logo{
+        top:-4px;
+    }
+    button{
+        width:20vw;
+        height:5vw;
+        border-radius:10px;
+        font-size:2vw;
+        background-color:transparent;
+    }
+
+}
