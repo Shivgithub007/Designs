@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Kablammo&family=PT+Sans+Narrow:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Borel', cursive;
+    font-family: 'Kablammo', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color:white;
+}
+body::-webkit-scrollbar{
+    display:none;
+    
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#background{
+    width:100%;
+    height:100%;
+    background-color:black;
+    position:fixed;
+    z-index:-9;
+}
+#backgroundImage{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:-8;
+    opacity: .2;
+    background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/px876236-image-kwvxbyfc.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=cc528818da58d905bfa786ed53c78405");
+}
+#hero{
+    width:100%;
+    height:15%;
+    /* background-color:brown; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:70px;
+    border-bottom:2px solid white;
+    
+}
+#hero a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    text-transform:uppercase;
+}
+#main{
+    height:45%;
+
+}
+#main h1{
+    width:100%;
+    
+    text-align:center;
+    margin-top:40px;
+    font-size:80px;
+}
+#image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+#image img{
+    width:300px;
+    height:400px;
+}
+#down{
+    width:100%;
+    height:100%;
+}
+#visitSite{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin:45px;
+}
+
+#visitSite button{
+    margin-top:40px;
+    color:black;
+    padding:10px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bolder;
+    border:none;
+    transition: .7 ease-in;
+}
+#visitSite button:hover{
+    color:white;
+    background-color:rgba(0,0,0,0);
+    border:1px solid white;
+    border-radius:10px;
+}
+
+
+
+
+
+@media screen and (max-width:625px) {
+    #main h1{
+        margin:50px 0px;
+        margin-top:105px;
+        font-size:60px;
+    }
+    #hero{
+        gap:20px;
+    }
+    #hero a{
+        font-size:17px;
+    }
+    #hero{
+        height:14%;
+    }
+}
+
